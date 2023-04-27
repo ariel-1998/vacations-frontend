@@ -1,0 +1,9 @@
+.PaginationEllipsis {
+	font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20px;
+    margin-top: 15px;
+    cursor: default;
+}

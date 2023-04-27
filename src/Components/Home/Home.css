@@ -1,0 +1,30 @@
+.Home {
+    background-image: url("../../assets/layout.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    position: relative;
+
+}
+
+.vacation-button {
+    display: inline-block;
+    width: 240px;
+    height: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #008080;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+    position: absolute;
+    top: 35%;
+    left: 30px;
+  }
+  
+  .vacation-button:hover {
+    transform: scale(1.1);
+  }
+  

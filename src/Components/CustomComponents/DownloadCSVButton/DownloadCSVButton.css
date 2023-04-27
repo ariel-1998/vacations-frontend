@@ -1,0 +1,7 @@
+.download {
+    cursor: pointer;
+}
+
+.disabled {
+    cursor:default;
+}

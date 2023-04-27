@@ -1,0 +1,20 @@
+.VacationsList {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+column-gap: 5%;
+row-gap: 60px;
+margin: auto;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.vacation-list-wrapper {
+    margin-bottom: 30px;
+}
+
+.select-filter{
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+}

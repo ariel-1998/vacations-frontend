@@ -1,0 +1,34 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-size: x-large;
+    background-color: #D5DBDB;
+}
+
+.Navbar > a {
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+    height: 90%;
+}
+
+  .Navbar > a:link , .Navbar > a:visited {
+    color: inherit;
+    text-decoration: none; 
+}
+
+.Navbar > a:hover {
+    color: #5D6D7E;
+}
+
+.Navbar > a.active {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.Navbar > a.active:hover {
+    color:inherit;
+}

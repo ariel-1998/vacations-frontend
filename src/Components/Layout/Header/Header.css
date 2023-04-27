@@ -1,0 +1,11 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background: url("../../../assets/header.jpg");
+}
+
+.header-title {
+    margin-left: 10%;
+    margin-top: 30px;
+}

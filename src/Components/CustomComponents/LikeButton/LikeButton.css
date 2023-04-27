@@ -1,0 +1,43 @@
+.like-button {
+  background-color: #fff;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 70px;
+  color: #666;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.like-button:hover {
+  background-color: #e6e6e6;
+  border-color: #b3b3b3;
+  color: #333;
+}
+
+.like-button .heart-icon {
+  font-size: 30px;
+  color: #ccc;
+  position: absolute;
+  bottom: -25%;
+  left: 10%;
+}
+
+.like-button .like-text {
+  position: absolute;
+  top: 12%;
+  right: 10%;
+}
+
+.like-button.liked:hover {
+  background-color: #e53935;
+  border-color: #e53935;
+}
+
+.like-button.liked .heart-icon {
+  color: #f44336;
+}

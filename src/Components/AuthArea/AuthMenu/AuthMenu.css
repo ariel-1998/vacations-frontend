@@ -1,0 +1,9 @@
+.AuthMenu {
+	position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.AuthMenu a {
+    color: black;
+}

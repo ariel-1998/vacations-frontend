@@ -1,0 +1,13 @@
+.icon-span {
+    position: absolute;
+    display: flex;
+    bottom: 15%;
+    right: 6%;
+}
+
+.icon {
+    position: absolute;
+    display: flex;
+    bottom: 27%;
+    left: 8%;
+}
